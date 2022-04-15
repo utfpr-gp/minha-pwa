@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1649991822274,
+  "index": "/minha-pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/minha-pwa/favicon.ico",
+        "/minha-pwa/index.html",
+        "/minha-pwa/main.048f174ca8cea173.js",
+        "/minha-pwa/manifest.webmanifest",
+        "/minha-pwa/polyfills.969d575c4f0401a4.js",
+        "/minha-pwa/runtime.2624cdf64d626cca.js",
+        "/minha-pwa/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/minha-pwa/assets/icons/icon-128x128.png",
+        "/minha-pwa/assets/icons/icon-144x144.png",
+        "/minha-pwa/assets/icons/icon-152x152.png",
+        "/minha-pwa/assets/icons/icon-192x192.png",
+        "/minha-pwa/assets/icons/icon-384x384.png",
+        "/minha-pwa/assets/icons/icon-512x512.png",
+        "/minha-pwa/assets/icons/icon-72x72.png",
+        "/minha-pwa/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/minha-pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/minha-pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/minha-pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/minha-pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/minha-pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/minha-pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/minha-pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/minha-pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/minha-pwa/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/minha-pwa/index.html": "813bdca4c815abede41eb8888f4d64209af57b9c",
+    "/minha-pwa/main.048f174ca8cea173.js": "f56fc172196743c9bf5ab786e92208ffa6d13e96",
+    "/minha-pwa/manifest.webmanifest": "2db3c7389a6990a96c0358fae178a8afedb6581d",
+    "/minha-pwa/polyfills.969d575c4f0401a4.js": "bcbfd67598a944893c2897d6ab906dfc77225c68",
+    "/minha-pwa/runtime.2624cdf64d626cca.js": "c44de270eaae993ca5becb4151b35adb35e45174",
+    "/minha-pwa/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
